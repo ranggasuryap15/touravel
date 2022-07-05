@@ -18,7 +18,7 @@
 body {
     background-color: var(--body-color);
     font-family: var(--main-font);
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -28,6 +28,7 @@ section {
 
 .container {
     max-width: 1500px;
+    margin: auto;
 }
 
 .navbar .nav-wrapper {
@@ -88,6 +89,171 @@ section {
     padding: 20px 30px;
     border-radius: 50px;
 }
+
+
+/* Home Start */
+
+.home {
+    margin-top: 100px;
+}
+
+.home .home-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-wrapper .heading {
+    font-family: var(--heading-font);
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.home-wrapper .heading span {
+    font-size: 2.9rem;
+    color: var(--second-color);
+}
+
+.home-wrapper .subheading {
+    font-size: 1.125rem;
+    color: #4a4a4a;
+    max-width: 500px;
+    margin: 25px 0;
+}
+
+.home-wrapper .box-wrapper {
+    display: flex;
+    gap: 80px;
+}
+
+.home-wrapper .box-wrapper .box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-wrapper .box i {
+    font-size: 1.8rem;
+    color: var(--main-color);
+}
+
+.box-wrapper .box p {
+    font-size: 1.125rem;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.content-left .form-panel {
+    position: relative;
+    width: 640px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    border: 3px solid #fff;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-panel img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.form-panel .title-form {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--main-color);
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.form-panel .form-location,
+.form-date {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-panel .form-location .loc,
+.form-date .calendar {
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
+
+.form-location select {
+    border: none;
+    appearance: none;
+    padding: 5px 10px;
+}
+
+.form-date input {
+    border: none;
+    padding: 5px 10px;
+}
+
+.form-date input::-webkit-inner-spin-button,
+.form-date input::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: -255px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.form-panel .btn-search {
+    position: relative;
+    background-color: var(--second-color);
+    padding: 20px;
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.form-panel .btn-search i {
+    font-size: 1.4rem;
+}
+
+.content-left .suggestion {
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.425);
+}
+
+.content-right .img-wrapper {
+    max-width: 800px;
+}
+
+.content-right .img-wrapper img {
+    width: 100%;
+}
+
+.home-wrapper .content-left {
+    flex: 0 0 50%;
+}
+
+.home-wrapper .content-right {
+    flex: 0 0 50%;
+}
+
+
+/* Home End */
 
 @media screen and (max-width: 991px) {
     .nav-wrapper .menu-wrapper .menu {
