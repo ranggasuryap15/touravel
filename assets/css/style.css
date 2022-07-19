@@ -477,6 +477,7 @@ section {
     align-items: center;
     padding: 40px 60px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .banner1 .heading {
@@ -524,15 +525,16 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .statistik-wrapper .content-img {
-    flex: 0 0 50%;
-    max-width: 600px;
+    width: 500px;
 }
 
 .statistik-wrapper .content-statistik {
-    flex: 0 0 50%;
+    background-color: bisque;
+    width: 700px;
 }
 
 .content-img img {
@@ -635,5 +637,21 @@ section {
         font-size: 2.5rem;
         color: var(--main-color);
         transition: .5s;
+    }
+    .statistik-wrapper .content-img {
+        margin: auto;
+    }
+    .statistik-wrapper .content-statistik {
+        margin: 50px auto;
+        text-align: center;
+    }
+    .content-statistik .heading-statistik {
+        margin: auto;
+    }
+    .content-statistik .subheading-statistik {
+        margin: 30px auto;
+    }
+    .content-statistik .angka-wrapper {
+        margin: auto;
     }
 }
