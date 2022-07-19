@@ -533,7 +533,6 @@ section {
 }
 
 .statistik-wrapper .content-statistik {
-    background-color: bisque;
     width: 700px;
 }
 
@@ -581,6 +580,12 @@ section {
 
 
 /* Statistik End */
+
+
+/* Banner 2 Start */
+
+
+/* Banner 2 End */
 
 @media screen and (max-width: 991px) {
     .nav-wrapper .menu-wrapper .menu {
