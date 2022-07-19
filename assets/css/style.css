@@ -582,7 +582,75 @@ section {
 /* Statistik End */
 
 
+/* Testimoni Start */
+
+.testimoni-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimoni-wrapper .col-heading,
+.col-slider-testimoni {
+    width: 700px;
+}
+
+.testimoni-wrapper .col-heading .label-testimoni {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    color: var(--second-color);
+}
+
+.testimoni-wrapper .col-heading .heading-testimoni {
+    font-size: 36px;
+    font-family: var(--heading-font);
+    font-weight: 700px;
+    color: #4a4a4a;
+    margin: 25px 0;
+}
+
+.col-slider-testimoni .card-testimoni {
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.068);
+    padding: 30px;
+    text-align: center;
+}
+
+.card-testimoni .text-testimoni {
+    padding: 20px;
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+.text-testimoni .bxs-quote-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-testimoni .bxs-quote-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.card-testimoni .status {
+    margin-top: 5px;
+    color: var(--second-color);
+}
+
+
+/* Testimoni End */
+
+
 /* Banner 2 Start */
+
+.banner2-wrapper {
+    margin: auto;
+}
 
 
 /* Banner 2 End */
@@ -602,6 +670,9 @@ section {
     }
     .menu-wrapper .btn-member {
         padding: 20px 25px;
+    }
+    .testimoni-wrapper {
+        flex-wrap: wrap;
     }
 }
 
@@ -658,5 +729,13 @@ section {
     }
     .content-statistik .angka-wrapper {
         margin: auto;
+    }
+    .testimoni-wrapper .col-heading {
+        text-align: center;
+        margin: auto;
+    }
+    .testimoni-wrapper .col-slider-testimoni {
+        text-align: center;
+        margin: 40px auto;
     }
 }

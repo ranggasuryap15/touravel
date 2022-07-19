@@ -23,3 +23,14 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".bxs-chevron-left-circle",
     },
 });
+
+// Testimoni
+var swiper = new Swiper(".mySwiperTestimoni", {
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    }
+});
