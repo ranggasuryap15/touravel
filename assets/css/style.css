@@ -650,6 +650,46 @@ section {
 
 .banner2-wrapper {
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--second-color);
+    padding: 3rem 7rem;
+    border-radius: 15px;
+}
+
+.content-banner2 .heading-banner2 {
+    font-size: 36px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+
+.content-banner2 .subheading-banner2 {
+    font-size: 20px;
+    font-family: var(--heading-font);
+    margin-top: 10px;
+}
+
+.content-banner2 .disc-banner2 {
+    background-color: #e06c00;
+    color: #fff;
+    font-family: var(--heading-font);
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-banner2 .btn-register {
+    background-color: var(--main-color);
+    color: #fff;
+    font-family: var(--heading-font);
+    font-size: 24px;
+    padding: 20px 40px;
+    border-radius: 50px;
 }
 
 
